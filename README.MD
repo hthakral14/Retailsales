@@ -71,8 +71,8 @@ schedule.every().day.at("02:00").do(update_pipeline)
 
 🛠️ Installation & Setup
 1. Clone the Repository
-git clone https://github.com/yourusername/retailsales-etl.git
-cd retailsales-etl
+git clone https://github.com/hthakral14/retailsales
+cd retailsales
 
 2. Create Virtual Environment
 python -m venv venv
@@ -110,6 +110,9 @@ SQLite
 
 Schedule (for automation)
 
+Due to large file size, full retail.db is not uploaded.
+Run etl.py to recreate the DB locally.
+
 Virtual Environment (venv)
 
 🤝 Contributing
@@ -120,4 +123,5 @@ If you want to improve this ETL pipeline, feel free to contribute.
 ⭐ Support
 
 If you like this project, please ⭐ star the repository!
+
 It helps others discover it.
