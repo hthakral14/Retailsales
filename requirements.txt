@@ -1,0 +1,3 @@
+pandas
+schedule
+sqlite3-binary
